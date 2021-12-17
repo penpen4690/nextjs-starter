@@ -1,6 +1,5 @@
 import { projects } from '../../utils/projectsData'
-
-const Game = () => {
+const AboutMe = () => {
     return (
         <div className="project">
             <aside>
@@ -20,10 +19,10 @@ const Game = () => {
                 </ul>
             </aside>
             <main>
-                <h1>Games</h1>
+                <h1>About Me</h1>
             </main>
         </div>
     )
 }
 
-export default Game;
+export default AboutMe;

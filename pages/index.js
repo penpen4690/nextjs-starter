@@ -12,11 +12,6 @@ const Home = () => (
         return <SmallCard key={project.id} Icon={Icon} title={project.name} slug={project.slug} />;
       })}
     </div>
-    <div className="card-about">
-      <a className="card-small" href="/contents/about">
-        <h3>About</h3>
-      </a>
-    </div>
   </div>
 );
 
