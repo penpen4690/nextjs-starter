@@ -1,5 +1,5 @@
 import { projects } from '../../utils/projectsData'
-import Aside from '../../pages/aside'
+import Aside from '../../utils/aside'
 const Blog = () => {
     return (
         <div className="project">
