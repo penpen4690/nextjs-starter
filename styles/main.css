@@ -53,10 +53,14 @@ h1 {
   grid-template-rows: repeat(2, 256);
   grid-gap: 50px;
 }
+.contents-card-grid {
 
-.card-about {
-  margin: 50px;
-
+  display: grid;
+  max-width: 80%;
+  grid-template-columns: repeat(3, 346px);
+  grid-template-rows: repeat(2, 256);
+  grid-gap: 50px;
+  margin-top: 170px;
 }
 
 .project {
