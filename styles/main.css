@@ -54,6 +54,11 @@ h1 {
   grid-gap: 50px;
 }
 
+.card-about {
+  margin: 50px;
+
+}
+
 .project {
   display: flex;
 }
