@@ -54,11 +54,6 @@ h1 {
   grid-gap: 50px;
 }
 
-.card-about {
-  margin: 50px;
-
-}
-
 .project {
   display: flex;
 }
@@ -108,6 +103,15 @@ h1 {
   cursor: pointer;
 }
 
+.project-card-grid {
+
+  display: grid;
+  max-width: 80%;
+  grid-template-columns: repeat(3, 346px);
+  grid-template-rows: repeat(2, 256);
+  grid-gap: 50px;
+  margin-top: 170px;
+}
 .card-big {
   width: 826px;
   height: 840px;
