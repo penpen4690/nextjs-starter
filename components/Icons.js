@@ -244,7 +244,10 @@ export function GithubIcon() {
 }
 
 export const projectIcons = {
-  aboutme: ReactIcon,
-  blog: VueIcon,
-  game: SvelteIcon,
+  react: ReactIcon,
+  vue: VueIcon,
+  svelte: SvelteIcon,
+  next: NextIcon,
+  nuxt: NuxtIcon,
+  gatsby: GatsbyIcon
 }
