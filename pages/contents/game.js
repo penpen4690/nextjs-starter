@@ -1,6 +1,7 @@
 import { projects } from '../../utils/projectsData'
 import { games } from '../../utils/gamesData'
 import SmallCard from '../../components/SmallCard';
+import Aside from '../../components/Aside'
 
 const Game = () => {
     return (

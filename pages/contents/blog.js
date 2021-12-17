@@ -1,4 +1,5 @@
 import { projects } from '../../utils/projectsData'
+import Aside from '../../components/Aside'
 
 const Blog = () => {
     return (
