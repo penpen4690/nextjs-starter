@@ -1,14 +1,14 @@
 import { games } from '../../utils/gameData';
 import SmallCard from '../../components/SmallCard';
 import { projects } from '../../utils/projectsData'
-import Aside from '../../utils/aside'
+// import Aside from '../../utils/aside'
 
 const Game = () => {
     return (
         <div className="project">
-            <aside>
+            {/* <aside>
                 <Aside projects={projects} />
-            </aside>
+            </aside> */}
             <main>
                 <h1>Game</h1>
                 <div className="project-card-grid">
