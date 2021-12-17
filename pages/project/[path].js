@@ -12,7 +12,7 @@ function Project({ project }) {
   return (
     <div className="project">
       <aside>
-        <h3>You can deploy...</h3>
+        <h3>コンテンツ</h3>
         <ul>
           {projects.map((project) => {
             return (
