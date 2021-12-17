@@ -13,7 +13,7 @@ const Home = () => (
       })}
     </div>
     <div className="card-about">
-      <a className="card-small" href="/about">
+      <a className="card-small" href="/contents/about">
         <h3>About</h3>
       </a>
     </div>

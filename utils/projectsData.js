@@ -1,7 +1,7 @@
 const projects = [
-  { id: 'aboutme', name: 'ABOUT ME', path: 'facebook/react', slug: 'facebook-react'},
-  { id: 'blog', name: 'BLOG', path: 'vuejs/vue', slug: 'vuejs-vue' },
-  { id: 'game', name: 'GAME', path: 'sveltejs/svelte', slug: 'sveltejs-svelte'}
+  { id: 'aboutme', name: 'ABOUT ME', slug: 'aboutme'},
+  { id: 'blog', name: 'BLOG', slug: 'blog' },
+  { id: 'game', name: 'GAME', slug: 'game'}
 ];
 
 module.exports = { projects };
