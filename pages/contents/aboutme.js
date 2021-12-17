@@ -1,9 +1,10 @@
 import { projects } from '../../utils/projectsData'
+import Aside from '../../components/Aside'
 const AboutMe = () => {
     return (
         <div className="project">
             <aside>
-                <h3>コンテンツ</h3>
+                {/* <h3>コンテンツ</h3>
                 <ul>
                     {projects.map((project) => {
                         return (
@@ -16,7 +17,8 @@ const AboutMe = () => {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                </ul>
+                </ul> */}
+                <Aside projects={projects} />
             </aside>
             <main>
                 <h1>About Me</h1>
