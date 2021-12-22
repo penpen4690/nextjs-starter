@@ -1,6 +1,4 @@
 import { projects } from '../../utils/projectsData'
-import { games } from '../../utils/gamesData'
-import SmallCard from '../../components/SmallCard';
 import Aside from '../../components/Aside'
 
 const Game = () => {
@@ -10,13 +8,20 @@ const Game = () => {
                 <Aside projects={projects} />
             </aside>
             <main>
-                <h1>Games</h1>
-                <div className="contents-card-grid">
-                    {games.map((game) => {
-                        return <SmallCard key={game.id} Icon={'react'} title={game.name} slug={game.slug} />;
-                    })}
+                <div className='games-list'>
+                    <h1>Games</h1>
+                    <ul>
+                        <li>
+                            <a href=''>エビカニゲーム🦐🦀</a>
+                        </li>
+                        <li>
+                            <a href=''>〇〇✕✕ゲーム🐇🐢</a>
+                        </li>
+                        <li>
+                            <a href=''>△△◇◇ゲーム🐶🐒</a>
+                        </li>
+                    </ul>
                 </div>
-
             </main>
         </div >
     )

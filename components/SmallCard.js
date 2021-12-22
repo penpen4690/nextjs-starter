@@ -3,7 +3,7 @@ import React from 'react';
 export default function SmallCard({ Icon, title, slug }) {
   return (
     <a className="card-small" href={`/contents/${slug}`}>
-      <Icon w={153} h={163} />
+      <img src={`/home/${Icon}.png`} alt={`${slug}`}  className='home-icon'/>
       <h3>{title}</h3>
     </a>
   );
