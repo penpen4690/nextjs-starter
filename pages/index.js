@@ -4,7 +4,7 @@ import { projectIcons } from '../components/Icons';
 import { projects } from '../utils/projectsData';
 const Home = () => (
   <div className="home">
-    <h1>メインページ。HOME的な感じ</h1>
+    <h1>HOME</h1>
 
     <div className="card-grid">
       {projects.map((project) => {
