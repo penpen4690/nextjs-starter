@@ -13,7 +13,7 @@ export default function Aside({ projects }) {
                 })}
 
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/">HOME</a>
                 </li>
             </ul>
         </>

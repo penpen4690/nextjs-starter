@@ -9,7 +9,7 @@ const AboutMe = () => {
             <main className='main-aboutme'>
                 <div>
                     <h1>About Me</h1>
-                    <img src="/portfolio/sample-icon.png" alt="sample" className='aboutme-icon' />
+                    <img src="/portfolio/sample.png" alt="sample" className='aboutme-icon' />
                     <h2>Profile</h2>
                     〇〇学科の〇回生です。 <br/>
                     ××について研究しています。<br/>
